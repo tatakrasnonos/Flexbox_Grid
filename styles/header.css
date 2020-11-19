@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  min-height: 450px;
+  color: white;
+  background: url(../img/header-bg.jpeg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-text {
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: 27px;
+  text-align: center;
+}
+
+.btn {
+  padding: 17px;
+  min-width: 170px;
+  text-align: center;
+}
+
+.btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.btn-subscribe {
+  background: #89CA62;
+}
+
+.btn-articles {
+  background: #14B9D5;
+}

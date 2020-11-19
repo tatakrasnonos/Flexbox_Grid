@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: #313131;
+}
+
+.logo {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 35%;
+}
+
+.menu-link {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.search {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  background: #000000;
+}

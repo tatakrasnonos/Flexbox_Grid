@@ -1,0 +1,27 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import "navbar.css";
+@import "header.css";
+@import "popular-posts.css";
+@import "popular-clients.css";
+@import "top-rated.css";
+@import "hot-news.css";
+@import "footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #18B4CF;
+}
